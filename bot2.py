@@ -10,7 +10,7 @@ bot = TeleBot('1498467565:AAFaJoWM19P8pcbX8G7qz8lr_eO6is83Icw')
 @bot.message_handler(content_types=["new_chat_members"])
 def handler_new_member(message):
 	markup = types.InlineKeyboardMarkup()
-	btn_my_site= types.InlineKeyboardButton(text='🔥 Наличие 🔥', url='https://docs.google.com/spreadsheets/d/1Nm207ONNH9-dPI_kRKUEoNazO96Nq214TD-u2GxWq7c/edit#gid=0')
+	btn_my_site= types.InlineKeyboardButton(text='🔥 Наличие 🔥', url='https://t.me/SmokeLab_Wro_presence')
 	markup.add(btn_my_site)
 	btn_my_site4= types.InlineKeyboardButton(text='🛍 Аксесуары 🛍', url='https://t.me/sl_wroclaw_accessories')
 	markup.add(btn_my_site4)
