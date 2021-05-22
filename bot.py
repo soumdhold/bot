@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # -*- Coding: utf-8 -*-
+bot.remove_webhook()
 from telebot import TeleBot
 from telebot import types
 
